@@ -51,13 +51,10 @@ The system has the following functionality:
 ### Auth
 - POST /register – Register a new user
 - POST /login – Login user
-- GET /profile – Get logged-in user profile
+- POST /logout – Logout user
 
 ### Tasks
-- POST /tasks – Create task
-- GET /tasks – Get all tasks
-- PUT /tasks/:id – Update task
-- DELETE /tasks/:id – Delete task
+- GET /validuser – Get user details
 
 ## How to Run Locally
 
